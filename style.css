@@ -1,0 +1,254 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	font-family: 'Montserrat', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	margin: 0;
+	padding: 0;
+	font-size: 1rem;
+}
+
+body {
+	background: url(../dexty/bg.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-weight: 600;
+}
+
+h1 { font-size: 70px; }
+h2 { font-size: 36px; }
+h3 { font-size: 36px; color: #FFF;}
+h4 { font-size: 24px; }
+h5 { font-size: 18px; }
+h6 { font-size: 16px; }
+
+img {
+	max-width: 100%;
+}
+
+input:focus,
+select:focus,
+button:focus,
+textarea:focus {
+	outline: none;
+}
+
+a:hover,
+a:focus {
+	text-decoration: none;
+	outline: none;
+}
+
+p {
+	line-height: 1.5rem;
+}
+
+/*
+ * ---------------------
+ * ---- PAGE LAYOUT ----
+ * ---------------------
+ */
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.text-center {
+	text-align: center;
+}
+
+#header {
+	min-height: 100px;
+	color: #FFF;
+	padding: 15px;
+	position: relative;
+}
+
+#header a.logo {
+	position: relative;
+	color:#FFF;
+	text-decoration: none;
+	display: inline-block;
+	background: url(../dexty/logo.png) no-repeat left center;
+	
+}
+
+#header a.logo span {
+	font-weight: 700;
+}
+
+#header a.logo:hover {
+	color:#FFF;
+}
+
+#header .header-menu {
+	text-align: right;
+}
+
+#header .header-menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#header .header-menu ul li {
+	display: inline-block;
+}
+
+#header .header-menu ul li a {
+	display: inline-block;
+	color:#FFF;
+	text-decoration: none;
+	padding: 15px;
+}
+
+#header .header-menu ul li a:hover {
+	color:#FFF;
+	background: #4B1E6F;
+	border-radius: 5px;
+	text-decoration: none;
+	padding: 15px;
+}
+
+section.section {
+	padding:100px 15px;
+}
+section.section-white {
+	background:#fff;
+}
+section.section-silver {
+	background:#2b2b2b;
+}
+section.section div.intro {
+	padding:100px 50% 100px 15px;
+	color:#ffffff;
+	background-size: contain;
+}
+
+section.section div.about {
+	padding:0 15px 0 50%;
+}
+
+section.section div.booking {
+	padding:0 50% 0 15px;
+	background: url(../dexty/logo.png) no-repeat right center;
+	background-size: contain;
+	color: #FFF;
+}
+
+
+ul.cards {
+	margin: 0;
+	padding: 15px 0 0 0;
+}
+ul.cards::after {
+	content: '';
+	clear: both;
+	display: block;
+}
+ul.cards li {
+	width: 33.33%;
+	display: block;
+	float: left;
+	padding: 10px;
+}
+ul.cards li span {
+	display: block;
+	border-radius: 5px;
+	text-align: center;
+	background: #4B1E6F;
+	color:#FFF;
+	font-weight: 700;
+	padding: 15px;
+	font-size: 1.2rem;
+}
+ul.cards li p {
+	padding:15px;
+	background:#FFF;
+	min-height: 300px;
+	text-align: center;
+}
+
+#footer {
+	background: #000000;
+	padding: 15px;
+	color:#FFF;
+}
+#footer .footer-menu {
+	margin: 0 0 15px 0;
+	padding:0 0 15px 0;
+	border-bottom: 1px solid #ffffff;
+}
+#footer .footer-menu li {
+	display: inline-block;
+}
+
+#footer .footer-menu li a {
+	display: inline-block;
+	color:#FFF;
+	text-decoration: none;
+	padding: 15px;
+}
+
+#footer .footer-menu li a:hover {
+	color:#FFF;
+	background: #4B1E6F;
+	border-radius: 5px;
+	text-decoration: none;
+	padding: 15px;
+}
+
+#footer .copyright {
+	padding: 15px;
+}
+
+#header img{
+	position: absolute;
+	top: -20px;
+}
+
+.tabacka{
+	position: fixed;
+	top: 1798.5px;
+	left: 435px;
+}
+
+.meduza{
+	position: fixed;
+	top: 1798.5px;
+	left: 850px;
+}
+
+.story{
+	position: absolute;
+	top: 770px;
+	left: 30px;
+}
+
+.instagram-icon{
+	color: white;
+}
+
+.instagram-icon:hover{
+	color: aqua;
+}
+
+ion-icon {
+	font-size: 25px;
+  }
+
+  .facebook-icon{
+	color: white;
+}
+
+.facebook-icon:hover{
+	color: aqua;
+}
